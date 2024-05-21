@@ -1,0 +1,24 @@
+= Android Project
+Ikhoon Chon <darkchoco@cloudscape.kr>
+:toc:
+
+== Basic info
+More information on each project's README.  +
+Here only covers basic information about each project.
+
+{sp} +
+
+== 구성 방법
+* Challenge 수행 등 한 프로젝트에서 추가적인 작업을 진행할 경우, 별도 branch를 생성해서 작업하고 main에 merge 하지 않는다.
+* 필요시 `git cherry-pick` 을 사용하여 추가된 branch 내용을 업데이트 하도록 한다.
+
+== List of projects
+=== GeoQuiz
+
+=== CriminalIntent
+
+=== UnitConverter
+
+== Reference
+
+{sp} +
