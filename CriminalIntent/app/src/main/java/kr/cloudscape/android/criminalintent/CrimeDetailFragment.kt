@@ -15,12 +15,13 @@ class CrimeDetailFragment : Fragment() {
 //    private lateinit var binding: FragmentCrimeDetailBinding
     private var _binding: FragmentCrimeDetailBinding? = null
 //    private val binding get() = checkNotNull(_binding) {
+    // 테스트 때문에 public으로 선언
     val binding get() = checkNotNull(_binding) {
         "Cannot access binding because it is null. Is the view visible?"
     }
 
-    // 테스트를 위해 임시로 public으로 전환
 //    private lateinit var crime: Crime
+    // 테스트 때문에 public으로 선언
     lateinit var crime: Crime
 
     override fun onCreate(savedInstanceState: Bundle?) {
